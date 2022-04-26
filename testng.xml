@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestTask">
+    <parameter name="baseUrl" value="https://www.pragmaticplay.com/en"/>
+    <parameter name="browser" value="${browser}"/>
+    <test name="TestNG">
+        <classes>
+            <class name="Case1"/>
+            <class name="Case2"/>
+        </classes>
+    </test>
+</suite>

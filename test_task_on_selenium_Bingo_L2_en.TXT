@@ -1,0 +1,29 @@
+Test task:
+
+Variant 1 (simple):
+	
+	- Java, Maven, JUnit/TestNG, Selenium, PageObject
+	Plus the use of PageFactory, logging, testreport, multibrowsers, and other features.
+
+	Test Case 1:
+		1. Open the browser and open the full screen.
+		2. Go to https://www.pragmaticplay.com/en.
+		3. Check if all header menu items (Home, Products, Client Hub, Company, News, Contact) are colored when cursor is moved.
+		4. Check if "Bingo" option in menu "Products" changes color when cursor is move over.
+
+	Test Сase 2:
+		1. Open the browser and open in the full screen mode / or use a browser that is already opened/.
+		2. Navigate to https://www.pragmaticplay.com/en
+		3. In the "Products" menu select "Bingo".
+		4. Scroll down to the "Our bingo variants" section
+		5. Check that there are 9 "Bingo theme".
+		6. Check if the elements are not duplicated.
+		7. Verify that the link to the image contains the name of the theme(like Rock'n'Swing, Bingo Blast, Boombox, etc.).
+		8. Close the browser.
+
+
+Expected result:
+		- The project is hosted in any git repository.
+		- The project is run using the pom.xml
+		- All tests passed successfully
+		- The execution result mustn't contains unhandled exception
