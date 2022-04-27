@@ -6,5 +6,5 @@ Install _brew install allure_
 # Run test 
 _mvn -Ptestng clean test -Dbrowser=chrome_ (Check capabilities BaseTest.java:58)
 
-# Generate report 
+# Generate report
 _allure serve target/surefire-reports/_
